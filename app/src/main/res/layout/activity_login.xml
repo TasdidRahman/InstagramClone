@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="root2LayoutTapped"
     tools:context=".LoginActivity">
 
     <Button
@@ -58,7 +59,7 @@
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="Please enter a password"
-        android:inputType="numberPassword"
+        android:inputType="textPassword|numberPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
